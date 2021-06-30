@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+ul li{
+    list-style: none;
+}
+.row{
+    max-width: 1140px;
+    margin:0px auto;
+}
+
+header{
+    background-color: #87509c;
+    height: 85vh;
+    position: relative;
+    overflow: hidden;
+}
+.logo{
+    float: left;
+}
+
+.main-nav{
+    float: right;
+}
+.main-nav li{
+    display: inline-block;
+    margin-left: 13px;
+
+}
+
+.main-nav li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    font-size: 12px;
+    color: #ffffff;
+}
+.main-nav li a:hover{
+    background-color: #643a79;
+    padding: 4px 10px;
+    border-radius: 3px;
+}
+.hero-text-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.hero-text-box h1{
+   font-size: 30px;
+   color: #ffffff;
+ 
+}
+.btn-hero{
+   background: #eb7d4b;
+   border-bottom: 3px solid #c86a40;
+   color: #ffffff;
+   text-decoration: none;
+   text-transform: uppercase;
+   padding: 16px 60px;
+   border-radius: 3px;
+   display: inline-block;
+   margin-top: 50px;
+}
+
+
+
+.service-secetion{
+    width: 100%;
+    height: 85vh;
+    background: #17c2a4;
+    overflow: hidden;
+}
+.header{
+  text-align: center;
+  margin-top: 70px;
+  color: #ffffff;
+}
+span{
+    border-bottom: 3px solid #14a58c;
+    
+}
+.header h2{
+    font-size: 25px;
+    font-weight: 200;
+}
+.header p{
+    font-size: 12px;
+    margin-top: 30px;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+}
+.column{
+    width: 200px;
+}
+.column h3{
+    font-size: 24px;
+    font-weight: 200;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.column p{
+    margin-top: 20px;
+    line-height: 27px;
+}
+
+
+
+.team-section{
+    width: 100%;
+    height: 100vh;
+    background: #e7f1f8;
+    overflow: hidden;
+}
+.team-header{
+    text-align: center;
+    margin-top: 100px;
+}
+.line{
+    border-bottom: 3px solid #c8d9e5;
+}
+.team-header h2{
+    font-weight: 300;
+    font-size: 25px;
+}
+.team-header P{
+    font-size: 14px;
+    margin-top: 30px;
+}
+.row-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.column-1{
+    width: 200px;
+    height: 300px;
+}
+.column-1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.column-1 h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 30px;
+    text-align: center;
+    color: #27283d;
+    font-weight: 300;
+}
+.column-1 .Myself{
+    text-align: center;
+    margin-top: 20px;
+    color: #277ca0;
+}
+.column-1 p{
+    font-size: 14px;
+    color: #aeb8c6;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.skill-section{
+    width: 100%;
+    height: 70vh;
+    background: #ffffff;
+}
+.skill-header{
+    text-align: center;
+    margin-top: 70px;
+}
+.skill-header h2{
+    font-weight: 300;
+    color: #3c4761;
+}
+.skill-header p{
+    font-size: 14px;
+    margin-top: 20px;
+    color: #b4bdd8;
+}
+
+
+
+.skill-progess{
+   margin-top: 100px;
+}
+.skill-progess ul{
+    margin-left: 400px;
+}
+.skill-progess ul li progress{
+  padding: 20px 350px;
+}
+
+
+
+.portfolio{
+    width: 100%;
+    height: 150vh;
+    background: #ffdd99;
+    overflow: hidden;
+}
+.portfolio-header{
+    text-align: center;
+    margin-top:50px;
+}
+.portfolio-of{
+    border-bottom: 3px solid #e5c37f;
+}
+.portfolio-header h2{
+    font-weight: 300;
+}
+.portfolio-header p{
+    font-size: 14px;
+    margin-top: 40px;
+    line-height: 30px;
+    color: #807258;
+}
+
+.portfolio-menu{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 50px;
+}
+.portfolio-menu ul{
+    list-style: none;
+}
+.portfolio-menu ul li{
+    display: inline-block;
+}
+.portfolio-menu ul li a{
+    padding: 5px 10px;
+    text-decoration: none;
+    background: #ebc985;
+    border-radius: 2px;
+    font-size: 12px;
+    margin-left: 3px;
+}
+
+.portfolio-img,
+.portfolio-img-2
+{
+   margin-top: 100px;
+   display: flex; 
+   margin-left: 250px;
+}
+.image-portfolio-1{
+    float: left;
+}
+.image-portfolio-1 p{
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #615a4c;
+}
+
+.image-portfolio-1{
+    float: left;
+    margin-left: 70px;
+}
+
+
+.input-field{
+    width: 100%;
+    height: 90vh;
+    background: #3c5499;
+    overflow: hidden;
+}
+.input-header{
+    text-align: center;
+    margin-top: 50px;
+}
+.input-header h2{
+    font-weight: 300;
+    color: #ffffff;
+}
+.input-header p{
+    font-size: 13px;
+    margin-top: 30px;
+    color: #ffffff;
+}
+
+
+.input-group{
+  margin-top: 100px;
+  margin-left: 400px;
+}
+.input-group input{
+    padding: 10px 50px;
+    border-radius: 3px;
+    background-color: #839bd4;
+    opacity: 0.9;
+}
+.input-group textarea{
+    background-color: #839bd4;
+    opacity: 0.9;
+}
+.btn{
+    margin-top: 60px;
+    margin-left: 600px;
+}
+.btn input{
+    padding: 15px 60px;
+    cursor: pointer;
+    background: #30bae7;
+    border: 3px solid #299ec5;
+    color: #ffffff;
+    border-radius: 3px;
+}
+footer{
+    width: 100%;
+    height: 14vh;
+    background: #344b8e;
+    overflow: hidden;
+}
+footer ul{
+    list-style: none;
+    margin-top: 40px;
+    margin-left: 300px;
+}
+footer ul li{
+    display: inline-block;
+}
+footer ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 100;
+}
